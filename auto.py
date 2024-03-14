@@ -1,6 +1,6 @@
 import requests
 import os
-ids = ['280','346','484','261','229','344','221']
+ids = ['280','346','484','261','229','344']
 
 for i,id_i in enumerate(ids):
 	response = requests.get('http://mpp.liveapi.mgtv.com/v1/epg/turnplay/getLivePlayUrlMPP?version=PCweb_1.0&platform=1&buss_id=2000001&channel_id='+id_i)
