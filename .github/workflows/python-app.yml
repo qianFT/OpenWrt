@@ -39,8 +39,8 @@ jobs:
         python auto.py
     - name: Commit
       run: |
-         git config --local user.email 761498456@qq.com
-         git config --local user.name qianFT
+         git config --local user.email ${{ secrets.EMAIL}}
+         git config --local user.name ${{ secrets.NAME}}T
          git add -A
          git commit -m "update"
     - name: Push changes
