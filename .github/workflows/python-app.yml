@@ -41,7 +41,7 @@ jobs:
       run: |
         python auto.py
     - name: Commit
-    - run: |
+      run: |
          git config --local user.email 761498456@qq.com
          git config --local user.name qianFT
          git add -A
