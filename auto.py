@@ -17,3 +17,4 @@ for i,id_i in enumerate(ids):
 		file.write('#EXTM3U\n')
 		file.write('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000\n')
 		file.write(text)
+
